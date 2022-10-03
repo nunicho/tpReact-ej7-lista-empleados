@@ -77,7 +77,7 @@ const Persons = () => {
     <div className="row">
       {persons.map((person) => {
         return (
-          <Person
+         <Person
             key={person.id}
             name={person.name}
             img={person.img}
