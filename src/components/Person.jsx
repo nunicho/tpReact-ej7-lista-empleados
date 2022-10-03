@@ -15,7 +15,7 @@ const Person = (props) => {
           <div className="col-12 col-md-8 col-lg-4">
             <h4>{props.name}</h4>
             <p className="text-muted">{props.role}</p>
-           <p className="text-muted">{props.sector}</p>
+           <p className="text-white badge bg-primary">{props.sector}</p>
             
           </div>
         </div>

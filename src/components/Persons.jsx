@@ -2,74 +2,75 @@ import React, { useState } from "react";
 import Person from "./Person";
 
 
+
 const Persons = () => {
   const [persons, setPersons] = useState([
     {
       id: 1,
-      name: "Laya Dueñas",
+      name: "Walter White",
       role: "CEO",
       sector: "Business",
-      img: "https://bootdey.com/img/Content/avatar/avatar1.png",
+      img: "https://i.ibb.co/5RGLVpx/walter.jpg",
     },
     {
       id: 2,
-      name: "Astryd Vallés",
+      name: "Jesse Pinkman",
       role: "CMO",
       sector: "Marketing",
-      img: "https://bootdey.com/img/Content/avatar/avatar2.png",
+      img: "https://i.ibb.co/XpdRpcr/pinkman.jpg",
     },
     {
       id: 3,
-      name: "Shantell Meza",
+      name: "Skyler White",
       role: "CFO",
       sector: "Business",
-      img: "https://bootdey.com/img/Content/avatar/avatar3.png",
+      img: "https://i.ibb.co/W5X7L9j/Skyler.jpg",
     },
 
     {
         id: 4,
-        name: "Sergio Ocampo",
+        name: "Marie Schrader",
         role: "CTO",
         sector: "Engineering",
-        img: "https://bootdey.com/img/Content/avatar/avatar4.png",
+        img: "https://i.ibb.co/WKbWYJq/Marie.jpg",
       },
 
       {
         id: 5,
-        name: "Ares Jiménez",
+        name: "Hank Schrader",
         role: "Art Director",
         sector: "Marketing",
-        img: "https://bootdey.com/img/Content/avatar/avatar5.png",
+        img: "https://i.ibb.co/wcm7K3F/hank.jpg",
       },
 
       {
         id: 6,
-        name: "Marta Perez",
+        name: "Saul Goodman",
         role: "Frontend Dev",
         sector: "Engineering",
-        img: "https://bootdey.com/img/Content/avatar/avatar6.png",
+        img: "https://i.ibb.co/mqHrm8B/goodman.jpg",
       },
 
       {
         id: 7,
-        name: "Ellen Balderas",
+        name: "Mike Ehrmantraut",
         role: "Digital Strategist",
         sector: "Marketing",
-        img: "https://bootdey.com/img/Content/avatar/avatar7.png",
+        img: "https://i.ibb.co/LnQzdxG/mike.jpg",
       },
       {
         id: 8,
-        name: "Cynthia Valentín",
+        name: "Gus Fring",
         role: "Backend Dev",
         sector: "Engineering",
-        img: "https://bootdey.com/img/Content/avatar/avatar8.png",
+        img: "https://i.ibb.co/XjtV5B5/gus.jpg",
       },
       {
         id: 9,
-        name: "Bernard Jung",
+        name: "Tuco Salamanca",
         role: "Devops Engineer",
         sector: "Engineering",
-        img: "https://bootdey.com/img/Content/avatar/avatar1.png",
+        img: "https://i.ibb.co/6bKgdn2/tuco.jpg",
       },
   ]);
 
