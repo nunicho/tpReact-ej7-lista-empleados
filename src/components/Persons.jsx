@@ -4,7 +4,7 @@ import Person from "./Person";
 
 
 const Persons = () => {
-  const [persons, setPersons] = useState([
+  const [persons] = useState([
     {
       id: 1,
       name: "Walter White",
