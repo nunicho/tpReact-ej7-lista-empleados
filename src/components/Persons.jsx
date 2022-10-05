@@ -78,6 +78,7 @@ const Persons = () => {
     <div className="row">
       {persons.map((person) => {
         return (
+         <div className="empleados border border-1 m-4">
          <Person
             key={person.id}
             name={person.name}
@@ -85,6 +86,7 @@ const Persons = () => {
             role={person.role}
             sector={person.sector}
           />
+          </div>
         );
       })}
     </div>

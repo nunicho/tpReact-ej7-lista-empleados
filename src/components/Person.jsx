@@ -1,4 +1,5 @@
 import React from "react";
+import '../App.css'
 
 const Person = (props) => {
   return (
@@ -14,7 +15,7 @@ const Person = (props) => {
           </div>
           <div className="col-12 col-md-8 col-lg-4">
             <h4>{props.name}</h4>
-            <p className="text-muted">{props.role}</p>
+            <p className="text-black">{props.role}</p>
            <p className="text-white badge bg-primary">{props.sector}</p>
             
           </div>
